@@ -3,7 +3,6 @@ package ru.mirea.Restaurant.domain;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
-import ru.mirea.Restaurant.data.Category;
 import ru.mirea.Restaurant.data.Dish;
 
 import java.util.List;

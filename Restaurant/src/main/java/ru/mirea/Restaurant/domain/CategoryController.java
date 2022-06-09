@@ -3,7 +3,6 @@ package ru.mirea.Restaurant.domain;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import ru.mirea.Restaurant.data.Category;
-import ru.mirea.Restaurant.data.Dish;
 
 @RestController
 public class CategoryController {

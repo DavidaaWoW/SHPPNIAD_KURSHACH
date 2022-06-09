@@ -11,10 +11,7 @@ function load_items() {
     let img = document.createElement("img");
     let p = document.createElement("p");
     let a = document.createElement("a");
-    a.setAttribute(
-      "href",
-      "http://127.0.0.1:5500/dishes.html?" + "id=" + element.id
-    );
+    a.setAttribute("href", "/dishes.html?" + "id=" + element.id);
     p.innerHTML = element.name;
     img.setAttribute("src", element.imageLink);
     item.className = "item";
